@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(22, 22, 22);
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.headingg{
+    text-align: center;
+    color:chocolate;
+}
+.post{
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    /* box-shadow: 2px 2px 5px #dddd; */
+     padding-bottom: 2%;
+     width: 80%;
+     margin-bottom: 5%;
+}
+.user{
+    font-style: italic;
+    padding-top: 2%;
+    padding-left: 2%;
+    color:darkblue;
+}
+.content{
+    /* padding: 5%; */
+    background-color: whitesmoke;
+    width: 90%;
+    height: 20vh;
+    margin-left: 5%;
+    border-radius: 0.5rem;
+    /* padding-left: 2%; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+h4{
+    padding-left: 2%;
+}
+.view{
+    margin-left: 5%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    color:white;
+    background-color: purple;
+    border-radius: 0.3rem;
+    padding: 1%;
+}
+.edit{
+    margin-left: 1%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    color:white;
+    background-color:green;
+    border-radius: 0.3rem;
+    padding: 1%;
+}
+
+.linkk{
+    text-decoration: none;
+    background-color: #4CAF50;
+    color:white;
+    border-radius: 0.2rem;
+    padding: 1%;
+    text-align: center;
+    
+   
+}
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: red;
+    color:aliceblue;
+    border: none;
+    padding: 1%;
+    text-align: center;
+    border-radius: 0.3rem;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.newParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textt{
+    color:orangered;
+}
+.newP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px darkgray;
+    margin-top: 2%;
+    width: 50%;
+    height: 60vh;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newSubmit{
+    background-color: #4CAF50;
+    border: none;
+    padding: 2%;
+    border-radius: 0.3rem;
+    color: white;
+    
+}
+.newP .user{
+    width: 97%;
+}
+.newP textarea{
+    width: 100%;
+}
+.editParent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    
+}
+.editMain{
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgb(94, 92, 92);
+    width: 50%;
+    padding-bottom: 2%;
+}
+.editt{
+    width: 60%;
+    /* align-items: center; */
+    
+   
+}
+.vieww{
+    /* width: 100%; */
+    background-color: aliceblue;
+    padding-left: 2%;
+    height: 100vh;
+}
+.vieww .headd{
+    color: rgb(255, 119, 0);
+}

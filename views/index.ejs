@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="headingg">BLOGS</h2>
+    <div class="main">
+      <div class="parent">
+        <% for( post of posts) { %>
+          <div class="post">
+               <h3 class="user">Username :<%= post.username %></h3>
+                 <h4>Content</h4>
+               <p class="content"> <%= post.content %></p>
+               <a  class="view" href="/posts/<%= post.id %>">See Blog</a>
+               <a href="/posts/<%= post.id %>/edit" class="edit">Edit Blog</a>
+              <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+                <button>Delete Post</button>
+              </form>
+          </div>
+  <%  } %>
+      </div>
+    </div>
+   
+   
+ <div class="new">
+    <a href="http://localhost:8080/post/new" class="linkk">Create new Post</a>
+ </div> 
+</body>
+</html>
